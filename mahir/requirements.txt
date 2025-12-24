@@ -1,0 +1,14 @@
+# Django web framework
+Django>=6.0,<7.0
+
+# Gunicorn WSGI server for production
+gunicorn
+
+# Database URL parser
+dj-database-url
+
+# PostgreSQL driver (Linux wheels used by Render)
+psycopg2-binary
+
+# Serve static files efficiently
+whitenoise
