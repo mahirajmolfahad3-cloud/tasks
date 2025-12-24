@@ -1,14 +1,5 @@
-# Django web framework
-Django>=6.0,<7.0
-
-# Gunicorn WSGI server for production
-gunicorn
-
-# Database URL parser
-dj-database-url
-
-# PostgreSQL driver (Linux wheels used by Render)
-psycopg2-binary
-
-# Serve static files efficiently
-whitenoise
+Django==6.0
+dj-database-url==3.0.1
+gunicorn==23.0.0
+whitenoise==6.5.0
+psycopg2-binary==2.9.7
